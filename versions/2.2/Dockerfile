@@ -1,6 +1,6 @@
 FROM alpine:3.3
 
-MAINTAINER Christian Inzinger <christian@inz.io>
+LABEL maintainer="Christian Inzinger <christian@inz.io>"
 
 RUN echo 'gem: --no-rdoc --no-ri' >/etc/gemrc
 RUN apk --update add \
